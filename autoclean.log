@@ -1,0 +1,35 @@
+21-05-2022 11:45:10.48 - INFO - Started validation of input parameters...
+21-05-2022 11:45:10.49 - INFO - Completed validation of input parameters
+21-05-2022 11:45:10.49 - INFO - Started handling of missing values...
+21-05-2022 11:45:10.49 - INFO - Found a total of 120 missing value(s)
+21-05-2022 11:45:10.49 - INFO - Started handling of NUMERICAL missing values... Method: "FALSE"
+21-05-2022 11:45:10.49 - INFO - Started handling of CATEGORICAL missing values... Method: "FALSE"
+21-05-2022 11:45:10.49 - INFO - Completed handling of missing values in 0.002687 seconds
+21-05-2022 11:45:10.49 - INFO - Started handling of outliers... Method: "WINZ"
+21-05-2022 11:45:10.51 - DEBUG - Outlier imputation of 30 value(s) succeeded for feature "RM"
+21-05-2022 11:45:10.52 - DEBUG - Outlier imputation of 5 value(s) succeeded for feature "DIS"
+21-05-2022 11:45:10.53 - DEBUG - Outlier imputation of 15 value(s) succeeded for feature "PTRATIO"
+21-05-2022 11:45:10.57 - DEBUG - Outlier imputation of 77 value(s) succeeded for feature "B"
+21-05-2022 11:45:10.59 - DEBUG - Outlier imputation of 40 value(s) succeeded for feature "MEDV"
+21-05-2022 11:45:10.59 - INFO - Completed handling of outliers in 0.105359 seconds
+21-05-2022 11:45:10.59 - INFO - Started conversion of DATETIME features... Granularity: False
+21-05-2022 11:45:10.59 - INFO - Completed conversion of DATETIME features in 0.0002 seconds
+21-05-2022 11:45:10.60 - INFO - Started encoding categorical features... Method: "AUTO"
+21-05-2022 11:45:10.60 - INFO - Completed encoding of categorical features in 1e-06 seconds
+21-05-2022 11:45:10.60 - INFO - Started feature type conversion...
+21-05-2022 11:45:10.60 - DEBUG - Conversion to type FLOAT succeeded for feature "CRIM"
+21-05-2022 11:45:10.60 - DEBUG - Conversion to type FLOAT succeeded for feature "ZN"
+21-05-2022 11:45:10.60 - DEBUG - Conversion to type FLOAT succeeded for feature "INDUS"
+21-05-2022 11:45:10.60 - WARNING - Conversion to type INT failed for feature "CHAS"
+21-05-2022 11:45:10.60 - DEBUG - Conversion to type FLOAT succeeded for feature "NOX"
+21-05-2022 11:45:10.60 - DEBUG - Conversion to type FLOAT succeeded for feature "RM"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "AGE"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "DIS"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type INT succeeded for feature "RAD"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type INT succeeded for feature "TAX"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "PTRATIO"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "B"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "LSTAT"
+21-05-2022 11:45:10.61 - DEBUG - Conversion to type FLOAT succeeded for feature "MEDV"
+21-05-2022 11:45:10.62 - INFO - Completed feature type conversion for 13 feature(s) in 0.019284 seconds
+21-05-2022 11:45:10.62 - INFO - AutoClean completed successfully
